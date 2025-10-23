@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: tiny base tweak to center the app */
+@layer base {
+  html, body, #root { height: 100%; }
+  body { @apply bg-white text-slate-900; }
+}
